@@ -1,6 +1,6 @@
 services:
   php:
-    image: dichor94/calculadora:v1
+    image: dichor94/calculadora
     container_name: calculadora_app
     ports:
       - "8080:80"
