@@ -61,7 +61,7 @@ use App\Calculadora;
       <input type="submit" value="Dividir" name="dividir">
   </form>
   
-    <h2>Resultado: <?php echo $resultado; ?></h2>
+    <h2>Resultado!: <?php echo $resultado; ?></h2>
 
 </body>
 </html>
