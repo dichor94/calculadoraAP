@@ -1,0 +1,6 @@
+services:
+  php:
+    image: dichor94/Calculadora:v1
+    container_name: Calculadora_app
+    ports:
+      - "8080:80"
