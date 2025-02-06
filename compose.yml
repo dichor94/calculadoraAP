@@ -1,6 +1,6 @@
 services:
   php:
-    image: dichor94/calculadora:${{ github.sha }}
+    image: dichor94/calculadora:latest
     container_name: calculadora_app
     ports:
       - "8080:80"
